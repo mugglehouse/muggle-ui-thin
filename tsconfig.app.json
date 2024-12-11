@@ -6,10 +6,18 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "moduleDetection": "force",
     "useDefineForClassFields": true,
+
+    // 子库url配置
+    "baseUrl": ".",
     "module": "ESNext",
 
     /* Bundler mode */
     "moduleResolution": "bundler",
+    "paths": {
+      "@muggle-ui/utils": [
+        "packages/utils/src"
+      ]
+    },
     "allowImportingTsExtensions": true,
 
     /* Linting */
