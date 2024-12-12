@@ -6,7 +6,7 @@ const baseUrl = fileURLToPath(new URL('.', import.meta.url))
 export default [
   {
     find: /^muggle-ui/,
-    replacement: path.resolve(baseUrl, 'packages/tov-ui/src'),
+    replacement: path.resolve(baseUrl, 'packages/muggle-ui/src'),
   },
   {
     find: /^@muggle-ui\/utils/,
